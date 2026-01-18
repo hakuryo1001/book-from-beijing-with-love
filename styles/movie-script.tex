@@ -1,0 +1,18 @@
+% Spacing defaults
+\setlength{\parskip}{0.5em}
+\setlength{\parindent}{0pt}
+
+% Stage directions
+\newcommand{\stage}[1]{%
+  \par\textit{（#1）}\par
+}
+
+% Character name
+\newcommand{\charname}[1]{%
+  \par\textbf{#1}\par
+}
+
+% Dialogue block
+\newenvironment{dialogue}
+  {\begin{list}{}{\leftmargin=2em}\item[]}
+  {\end{list}}
